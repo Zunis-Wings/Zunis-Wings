@@ -1,0 +1,137 @@
+:root {
+    font-family: "Ubuntu", serif;
+    text-align: center;
+    background-color: #212121;
+    color:white;
+    font-size: xx-large;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 18% 18% 28% 18% 18%;
+    background-color: #646464;
+    padding: 10px;
+}
+
+.grid-item {
+    padding: 20px;
+    text-align: center;
+}
+
+
+.grid-container2 {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #161616;
+  padding: 10px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.grid-item {
+  padding: 20px;
+  text-align: center;
+}
+
+.body{
+  background-color: #161616;
+  width: 70%;
+  padding: 50px;
+  margin: 0 auto;
+  font-size:xx-large;
+  text-align:start;
+}
+
+.about-section{
+  font-size: xx-large;
+}
+
+#about {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.contact-section{
+  text-align:start;
+  width: 70%;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.footer-section{
+  background-color: #646464;
+  color: #424242;
+  padding: 1px;
+  margin: 0 auto;  
+}
+
+.section-header{
+  text-align: center;
+}
+
+.days-text{
+  text-align: end;
+}
+
+.hours-text{
+  text-align: start;
+}
+
+.location-section{
+  padding: 20px;
+}
+/* Ubuntu font classes
+.ubuntu-light {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .ubuntu-regular {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .ubuntu-medium {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .ubuntu-bold {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .ubuntu-light-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .ubuntu-regular-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .ubuntu-medium-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .ubuntu-bold-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+*/
