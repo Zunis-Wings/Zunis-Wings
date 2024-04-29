@@ -11,11 +11,11 @@
     <script src="https://kit.fontawesome.com/8cfcd69a45.js" crossorigin="anonymous"></script>
     <section class="nav-bar">
         <div class="grid-container">
-            <div class="grid-item">About</div>
-            <div class="grid-item">Menu</div>
+            <div class="grid-item nav-link"><a class="nav-text" href="#about-section">About</a></div>
+            <div class="grid-item nav-link"><a class="nav-text" href="#menu-section">Menu</a></div>
             <div class="grid-item">LOGO</div>
-            <div class="grid-item">Hours</div>
-            <div class="grid-item">Contact Us</div>
+            <div class="grid-item nav-link"><a class="nav-text" href="#hours-section">Hours</a></div>
+            <div class="grid-item nav-link"><a class="nav-text" href="tel:8037082337">Contact Us</a></div>
         </div>
     </section>
     <section class="banner-image">
@@ -23,24 +23,26 @@
             <source src="media/website_video.mov">
         </video>
     </section>
-    <section class="about-section">
+    <section class="content-section" id="about-section">
         <h2 class="section-header">Our Story</h2>
         <p class="body">Zuni's is a small family-owned restaurant that offers many dishes to the Midlands area of South Carolina. 
             Of our offerings, our speciality is our Korean dishes and crispy, Chinese-style wings as we make them using our own special recipes. 
             All dishes are cooked to order using the freshest of ingredients. Come in and try us today!</p>
     </section>
-    <section class="menu-section">
+    <section class="content-section" id="menu-section">
         <h2 class="section-header">Menu</h2>
-        <embed class="embed pdf" src="media/Zunis-Menu.pdf" width="60%" height="375" type="application/pdf">
-        <p>Having trouble viewing? Click below</p>
-        <a id="menubutton" href="media/Zunis-Menu.pdf">
-            <i class="fa-solid fa-bars" aria-hidden="true"></i>
-            Menu
-        </a>
+        <div class="menu-media">
+            <embed class="embed pdf" src="media/Zunis-Menu.pdf" width="80%" height="500" type="application/pdf">
+                <p>Having trouble viewing? Click below</p>
+                <a id="menubutton" href="media/Zunis-Menu.pdf">
+                    <i class="fa-solid fa-bars" aria-hidden="true"></i>
+                    Menu
+                </a>
+        </div>
     </section>
-    <section class="contact-section">
+    <section class="content-section" id="hours-section">
         <h2 class="section-header">Hours</h2>
-        <div class="grid-container2">
+        <div class="grid-container-hours">
             <div class="grid-item">
                 <p class="days-text">
                     Monday <br>
@@ -54,7 +56,7 @@
             </div>
             <div class="grid-item">
                 <p class="hours-text">
-                    3:00 pm - 9:00pm &nbsp<br>
+                    11:00 am - 9:00 pm<br>
                     11:00 am - 9:00 pm <br>
                     11:00 am - 9:00 pm<br>
                     11:00 am - 9:00 pm<br>
@@ -67,10 +69,16 @@
     </section>
     <section class="location-section">
         <h2 class="section-header">Location</h2>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d982.3847711963599!2d-80.93194790833772!3d34.08655260657063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f8a932839e3d85%3A0xe9ec5eddd7d9edeb!2s8710%20Two%20Notch%20Rd%2C%20Columbia%2C%20SC%2029223!5e0!3m2!1sen!2sus!4v1714370640040!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="location-content">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d982.3847711963599!2d-80.93194790833772!3d34.08655260657063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f8a932839e3d85%3A0xe9ec5eddd7d9edeb!2s8710%20Two%20Notch%20Rd%2C%20Columbia%2C%20SC%2029223!5e0!3m2!1sen!2sus!4v1714370640040!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
     </section>
     <footer class="footer-section">
-        <p>Zuni's Chicken and Seafood @ 2024</p>
+        <p>
+            <a class="tele-text" href="tel:8037082337">(803) 708-2337</a> &ensp;
+            <a class="tele-text" href="tel:8036994343">(803) 699-4343</a> 
+        </p>
+        <p>Zuni's @ 2024</p>
     </footer>
   </body>
 </html>
