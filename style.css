@@ -1,137 +1,888 @@
-:root {
+
+@media (min-width:320px){
+  :root {
     font-family: sans-serif;
     text-align: center;
     background-color: #212121;
     color:white;
-    font-size: xx-large;
+    font-size: medium;
     scroll-behavior: smooth;
-}
+  }
 
-body {
-    margin: 0px;
-    padding: 0px;
-}
+  body {
+      margin: 0px;
+      padding: 0px;
+      text-align: center;
+  }
 
-.grid-container {
+  .grid-container {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      background-color: white;
+      padding: 10px;
+  }
+
+  .grid-item {
+      padding: 3px;
+      width: 30px;
+      text-align: center;
+      font-size: 11px;
+  }
+
+  .nav-link {
+    background-color: #910a0a;
+    margin: 0 auto;
+    height: 10px;
+    border-radius: 10px;
+  }
+
+  .nav-text{
+    color: white;
+    text-decoration: none;
+  }
+
+  .grid-container-hours {
     display: grid;
-    grid-template-columns: 18% 18% 28% 18% 18%;
-    background-color: white;
+    grid-template-columns: auto auto;
+    background-color: #161616;
     padding: 10px;
-}
+    width: 70%;
+    margin: 0 auto;
+  }
 
-.grid-item {
+  .grid-item {
     padding: 20px;
     text-align: center;
+  }
+
+  .body{
+    background-color: #161616;
+    width: 70%;
+    padding: 50px;
+    margin: 0 auto;
+    font-size:medium;
+    text-align:start;
+  }
+
+  .about-section{
+    font-size: medium;
+  }
+
+  #about {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .info-section{
+    text-align:start;
+    width: 70%;
+    margin: 0 auto;
+    padding: 50px;
+  }
+
+  .footer-section{
+    background-color: #646464;
+    color: black;
+    padding: 1px;
+    margin: 0 auto;  
+  }
+
+  .section-header{
+    text-align: center;
+  }
+
+  .days-text{
+    text-align: end;
+  }
+
+  .hours-text{
+    text-align: start;
+    width: 300px;
+  }
+
+  .location-section{
+    padding: 20px;
+  }
+
+  h2 {
+    color: #910a0a;
+  }
+
+  .info-section{
+    width: 100%
+  }
+
+  .menu-media {
+    background-color: #161616;
+    width: 50%;
+    margin: 0 auto;
+    padding: 30px;
+  }
+
+  .location-content{
+    background-color: #161616;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .tele-text{
+    font-size: medium;
+    color: black;
+    text-decoration: none;
+  }
+
+  #menubutton{
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  iframe {
+    width: 125px;
+    height: 125px
+  }
 }
 
-.nav-link {
-  background-color: #910a0a;
-  margin: 0 auto;
-  width: 70%;
-  border-radius: 10px;
+@media (min-width:481px){
+  :root {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #212121;
+    color:white;
+    font-size: medium;
+    scroll-behavior: smooth;
+  }
+
+  body {
+      margin: 0px;
+      padding: 0px;
+      text-align: center;
+  }
+
+  .grid-container {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      background-color: white;
+      padding: 10px;
+  }
+
+  .grid-item {
+      padding: 3px;
+      width: 30px;
+      text-align: center;
+      font-size: 11px;
+  }
+
+  .nav-link {
+    background-color: #910a0a;
+    margin: 0 auto;
+    height: 10px;
+    border-radius: 10px;
+  }
+
+  .nav-text{
+    color: white;
+    text-decoration: none;
+  }
+
+  .grid-container-hours {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #161616;
+    padding: 10px;
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .grid-item {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .body{
+    background-color: #161616;
+    width: 70%;
+    padding: 50px;
+    margin: 0 auto;
+    font-size:medium;
+    text-align:start;
+  }
+
+  .about-section{
+    font-size: medium;
+  }
+
+  #about {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .info-section{
+    text-align:start;
+    width: 70%;
+    margin: 0 auto;
+    padding: 50px;
+  }
+
+  .footer-section{
+    background-color: #646464;
+    color: black;
+    padding: 1px;
+    margin: 0 auto;  
+  }
+
+  .section-header{
+    text-align: center;
+  }
+
+  .days-text{
+    text-align: end;
+  }
+
+  .hours-text{
+    text-align: start;
+    width: 300px;
+  }
+
+  .location-section{
+    padding: 20px;
+  }
+
+  h2 {
+    color: #910a0a;
+  }
+
+  .info-section{
+    width: 100%
+  }
+
+  .menu-media {
+    background-color: #161616;
+    width: 50%;
+    margin: 0 auto;
+    padding: 30px;
+  }
+
+  .location-content{
+    background-color: #161616;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .tele-text{
+    font-size: medium;
+    color: black;
+    text-decoration: none;
+  }
+
+  #menubutton{
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  iframe {
+    width: 125px;
+    height: 125px
+  }
 }
 
-.nav-text{
-  color: white;
-  text-decoration: none;
+@media (min-width:641px){
+  :root {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #212121;
+    color:white;
+    font-size: x-large;
+    scroll-behavior: smooth;
+  }
+
+  body {
+      margin: 0px;
+      padding: 0px;
+      text-align: center;
+  }
+
+  .grid-container {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      background-color: white;
+      padding: 10px;
+  }
+
+  .grid-item {
+      padding: 3px;
+      width: 125px;
+      text-align: center;
+      font-size: 20px;
+  }
+
+  .nav-link {
+    background-color: #910a0a;
+    margin: 0 auto;
+    height: 10px;
+    border-radius: 10px;
+  }
+
+  .nav-text{
+    color: white;
+    text-decoration: none;
+  }
+
+  .grid-container-hours {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #161616;
+    padding: 10px;
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .grid-item {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .body{
+    background-color: #161616;
+    width: 70%;
+    padding: 50px;
+    margin: 0 auto;
+    font-size: large;
+    text-align: start;
+  }
+
+  .about-section{
+    font-size: medium;
+  }
+
+  #about {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .info-section{
+    text-align:start;
+    width: 70%;
+    margin: 0 auto;
+    padding: 50px;
+  }
+
+  .footer-section{
+    background-color: #646464;
+    color: black;
+    padding: 1px;
+    margin: 0 auto;  
+  }
+
+  .section-header{
+    text-align: center;
+  }
+
+  .days-text{
+    text-align: end;
+  }
+
+  .hours-text{
+    text-align: start;
+    width: 300px;
+  }
+
+  .location-section{
+    padding: 20px;
+  }
+
+  h2 {
+    color: #910a0a;
+  }
+
+  .info-section{
+    width: 100%
+  }
+
+  .menu-media {
+    background-color: #161616;
+    width: 50%;
+    margin: 0 auto;
+    padding: 30px;
+  }
+
+  .location-content{
+    background-color: #161616;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .tele-text{
+    font-size: medium;
+    color: black;
+    text-decoration: none;
+  }
+
+  #menubutton{
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  iframe {
+    width: 275px;
+    height: 125px
+  }
 }
 
-.grid-container-hours {
-  display: grid;
-  grid-template-columns: auto auto;
-  background-color: #161616;
-  padding: 10px;
-  width: 50%;
-  margin: 0 auto;
+@media (min-width:961px){
+  :root {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #212121;
+    color:white;
+    font-size: x-large;
+    scroll-behavior: smooth;
+  }
+
+  body {
+      margin: 0px;
+      padding: 0px;
+      text-align: center;
+  }
+
+  .grid-container {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      background-color: white;
+      padding: 10px;
+  }
+
+  .grid-item {
+      padding: 3px;
+      width: 125px;
+      text-align: center;
+      font-size: 20px;
+  }
+
+  .nav-link {
+    background-color: #910a0a;
+    margin: 0 auto;
+    height: 10px;
+    border-radius: 10px;
+  }
+
+  .nav-text{
+    color: white;
+    text-decoration: none;
+  }
+
+  .grid-container-hours {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #161616;
+    padding: 10px;
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .grid-item {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .body{
+    background-color: #161616;
+    width: 70%;
+    padding: 50px;
+    margin: 0 auto;
+    font-size: x-large;
+    text-align: start;
+  }
+
+  .about-section{
+    font-size: medium;
+  }
+
+  #about {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .info-section{
+    text-align:start;
+    width: 70%;
+    margin: 0 auto;
+    padding: 50px;
+  }
+
+  .footer-section{
+    background-color: #646464;
+    color: black;
+    padding: 1px;
+    margin: 0 auto;  
+  }
+
+  .section-header{
+    text-align: center;
+  }
+
+  .days-text{
+    text-align: end;
+  }
+
+  .hours-text{
+    text-align: start;
+    width: 300px;
+  }
+
+  .location-section{
+    padding: 20px;
+  }
+
+  h2 {
+    color: #910a0a;
+  }
+
+  .info-section{
+    width: 100%
+  }
+
+  .menu-media {
+    background-color: #161616;
+    width: 50%;
+    margin: 0 auto;
+    padding: 30px;
+  }
+
+  .location-content{
+    background-color: #161616;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .tele-text{
+    font-size: x-large;
+    color: black;
+    text-decoration: none;
+  }
+
+  #menubutton{
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  iframe {
+    width: 350px;
+    height: 125px
+  }
 }
 
-.grid-item {
-  padding: 20px;
-  text-align: center;
+@media (min-width:1025px){
+  :root {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #212121;
+    color:white;
+    font-size: x-large;
+    scroll-behavior: smooth;
+  }
+
+  body {
+      margin: 0px;
+      padding: 0px;
+      text-align: center;
+  }
+
+  .grid-container {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      background-color: white;
+      padding: 10px;
+  }
+
+  .grid-item {
+      padding: 3px;
+      width: 125px;
+      text-align: center;
+      font-size: 20px;
+  }
+
+  .nav-link {
+    background-color: #910a0a;
+    margin: 0 auto;
+    height: 10px;
+    border-radius: 10px;
+  }
+
+  .nav-text{
+    color: white;
+    text-decoration: none;
+  }
+
+  .grid-container-hours {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #161616;
+    padding: 10px;
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .grid-item {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .body{
+    background-color: #161616;
+    width: 70%;
+    padding: 50px;
+    margin: 0 auto;
+    font-size: x-large;
+    text-align: start;
+  }
+
+  .about-section{
+    font-size: medium;
+  }
+
+  #about {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .info-section{
+    text-align:start;
+    width: 70%;
+    margin: 0 auto;
+    padding: 50px;
+  }
+
+  .footer-section{
+    background-color: #646464;
+    color: black;
+    padding: 1px;
+    margin: 0 auto;  
+  }
+
+  .section-header{
+    text-align: center;
+  }
+
+  .days-text{
+    text-align: end;
+  }
+
+  .hours-text{
+    text-align: start;
+    width: 300px;
+  }
+
+  .location-section{
+    padding: 20px;
+  }
+
+  h2 {
+    color: #910a0a;
+  }
+
+  .info-section{
+    width: 100%
+  }
+
+  .menu-media {
+    background-color: #161616;
+    width: 50%;
+    margin: 0 auto;
+    padding: 30px;
+  }
+
+  .location-content{
+    background-color: #161616;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .tele-text{
+    font-size: x-large;
+    color: black;
+    text-decoration: none;
+  }
+
+  #menubutton{
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  iframe {
+    width: 450px;
+    height: 125px
+  }
 }
 
-.body{
-  background-color: #161616;
-  width: 70%;
-  padding: 50px;
-  margin: 0 auto;
-  font-size:xx-large;
-  text-align:start;
-}
+@media (min-width:1025px){
+  :root {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #212121;
+    color:white;
+    font-size: x-large;
+    scroll-behavior: smooth;
+  }
 
-.about-section{
-  font-size: xx-large;
-}
+  body {
+      margin: 0px;
+      padding: 0px;
+      text-align: center;
+  }
 
-#about {
-  width: 50%;
-  text-align: center;
-  margin: 0 auto;
-}
+  .grid-container {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      background-color: white;
+      padding: 10px;
+  }
 
-.info-section{
-  text-align:start;
-  width: 70%;
-  margin: 0 auto;
-  padding: 50px;
-}
+  .grid-item {
+      padding: 3px;
+      width: 175px;
+      text-align: center;
+      font-size: 22px;
+  }
 
-.footer-section{
-  background-color: #646464;
-  color: black;
-  padding: 1px;
-  margin: 0 auto;  
-}
+  .nav-link {
+    background-color: #910a0a;
+    margin: 0 auto;
+    height: 10px;
+    border-radius: 10px;
+  }
 
-.section-header{
-  text-align: center;
-}
+  .nav-text{
+    color: white;
+    text-decoration: none;
+  }
 
-.days-text{
-  text-align: end;
-}
+  .grid-container-hours {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #161616;
+    padding: 10px;
+    width: 50%;
+    margin: 0 auto;
+  }
 
-.hours-text{
-  text-align: start;
-}
+  .grid-item {
+    padding: 20px;
+    text-align: center;
+  }
 
-.location-section{
-  padding: 20px;
-}
+  .body{
+    background-color: #161616;
+    width: 70%;
+    padding: 50px;
+    margin: 0 auto;
+    font-size: x-large;
+    text-align: start;
+  }
 
-h2 {
-  color: #910a0a;
-}
+  .about-section{
+    font-size: medium;
+  }
 
-.info-section{
-  width: 100%
-}
+  #about {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+  }
 
-.menu-media {
-  background-color: #161616;
-  width: 50%;
-  margin: 0 auto;
-  padding: 30px;
-}
+  .info-section{
+    text-align:start;
+    width: 70%;
+    margin: 0 auto;
+    padding: 50px;
+  }
 
-.location-content{
-  background-color: #161616;
-  width: 50%;
-  margin: 0 auto;
-  padding: 20px;
-}
+  .footer-section{
+    background-color: #646464;
+    color: black;
+    padding: 1px;
+    margin: 0 auto;  
+  }
 
-.tele-text{
-  font-size: xx-large;
-  color: black;
-  text-decoration: none;
-}
+  .section-header{
+    text-align: center;
+  }
 
-#menubutton{
-  background: white;
-  border-radius: 10px;
-  padding: 10px;
-  text-decoration: none;
-  color: black;
-}
+  .days-text{
+    text-align: end;
+  }
 
+  .hours-text{
+    text-align: start;
+    width: 300px;
+  }
+
+  .location-section{
+    padding: 20px;
+  }
+
+  h2 {
+    color: #910a0a;
+  }
+
+  .info-section{
+    width: 100%
+  }
+
+  .menu-media {
+    background-color: #161616;
+    width: 50%;
+    margin: 0 auto;
+    padding: 30px;
+  }
+
+  .location-content{
+    background-color: #161616;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .tele-text{
+    font-size: x-large;
+    color: black;
+    text-decoration: none;
+  }
+
+  #menubutton{
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  iframe {
+    width: 450px;
+    height: 125px
+  }
+}
